@@ -1,0 +1,54 @@
+.about-page {
+  .about-hero {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+
+    &__title {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    &__subtitle {
+      opacity: 0.8;
+      max-width: 500px;
+      margin: 0.75rem auto 0;
+    }
+  }
+
+  .tech-stack {
+    padding: 4rem 0;
+
+    &__card {
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      text-align: center;
+      transition: all 0.3s ease;
+      height: 100%;
+
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      &-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+      }
+
+      &-name {
+        font-weight: 700;
+        color: #1e1b4b;
+        margin-bottom: 0.25rem;
+      }
+
+      &-desc {
+        font-size: 0.875rem;
+        color: #64748b;
+      }
+    }
+  }
+}

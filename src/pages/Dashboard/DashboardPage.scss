@@ -1,0 +1,53 @@
+.dashboard-page {
+  padding: 2rem 0 4rem;
+
+  &__header {
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #1e1b4b;
+    }
+
+    p {
+      color: #64748b;
+    }
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .stat-card {
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    &__icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &__value {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #1e1b4b;
+    }
+
+    &__label {
+      font-size: 0.875rem;
+      color: #64748b;
+      margin-top: 0.25rem;
+    }
+  }
+}
